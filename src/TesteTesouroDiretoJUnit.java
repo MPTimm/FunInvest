@@ -14,5 +14,8 @@ public class TesteTesouroDiretoJUnit {
 		
 		//Previsão de resgate do montante investido em TesouroDireto
 		tesouro.previous(5);
+		
+		//Realizando saque do valor já investido
+		tesouro.sacar(1000000);
 	}
 }

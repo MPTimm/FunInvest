@@ -14,4 +14,10 @@ public class Poupanca implements Investimento {
 		DecimalFormat previsaoFormat = new DecimalFormat("#.00");
 		System.out.println("Valor previsto para resgate em " + time + " anos:" + "R$ " + previsaoFormat.format(previsao));
 	}
+	
+	public void sacar(double value) {
+		montante = montante - value;
+		DecimalFormat saque = new DecimalFormat("#.00");
+		System.out.println("Valor restante após o resgate: R$ " + saque.format(montante));
+	}
 }
