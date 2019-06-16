@@ -17,6 +17,7 @@ public class InvestimentoExemplo {
 		Investimento cdb = investimentoFactory.getInvestimento("CDB");
 		
 		cdb.investir(1000);
+		
 		//Previsão de resgate do montante investido em CDB
 		cdb.previous(20);
 		
