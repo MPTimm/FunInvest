@@ -1,10 +1,11 @@
 import java.text.DecimalFormat;
 
-public class TesouroDireto implements Investimento {
+public class TesouroDireto  implements Investimento {
 	
 	private float tax; //em porcentagem
 	private double rend = 1.5; //em porcentagem
 	private double montante;
+	
 	
 	
 	public void investir(double value) {
